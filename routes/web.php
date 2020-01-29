@@ -25,4 +25,4 @@ Route::post('posts/{post}/update', 'PostsController@update');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('pages/sign', 'HomeController@index')->name('home');

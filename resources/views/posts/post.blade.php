@@ -15,7 +15,7 @@
             <br>
 
         </p>
-        
+
         <br>
         {{ $post -> body }}
         <hr>
