@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68e821c-0dd3-401a-b940-0af02dcb02a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_30_184320_create_comments_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/mailController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +14,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="Git.Settings">
@@ -170,7 +165,7 @@
       <workItem from="1580243420279" duration="1322000" />
       <workItem from="1580245098879" duration="35000" />
       <workItem from="1580328331446" duration="4631000" />
-      <workItem from="1580407238069" duration="2556000" />
+      <workItem from="1580407238069" duration="5244000" />
     </task>
     <servers />
   </component>
@@ -181,6 +176,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580417415045">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580417415045" />
     <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580332940829">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -189,6 +188,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="281" y="27" width="860" height="741" key="CommitChangelistDialog2/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580328385867" />
+    <state x="450" y="312" width="523" height="168" key="ComposerInitDialogKey" timestamp="1580417388640">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="450" y="312" width="523" height="168" key="ComposerInitDialogKey/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580417388640" />
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580407275535">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -209,10 +212,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580244943914" />
-    <state x="483" y="210" width="457" height="373" key="NewPhpClassDialog" timestamp="1580332925631">
+    <state x="483" y="210" width="457" height="373" key="NewPhpClassDialog" timestamp="1580416871963">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="483" y="210" width="457" height="373" key="NewPhpClassDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580332925631" />
+    <state x="483" y="210" width="457" height="373" key="NewPhpClassDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580416871963" />
     <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1580407991332">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -225,5 +228,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="484" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580328392188" />
+    <state x="67" y="27" width="709" height="741" key="find.popup" timestamp="1580416540835">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="709" height="741" key="find.popup/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580416540835" />
   </component>
 </project>
