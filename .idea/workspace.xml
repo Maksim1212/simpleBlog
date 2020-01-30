@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68e821c-0dd3-401a-b940-0af02dcb02a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/post.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_30_184320_create_comments_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/mailController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +131,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lar" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -163,7 +169,8 @@
       <workItem from="1580242290946" duration="5000" />
       <workItem from="1580243420279" duration="1322000" />
       <workItem from="1580245098879" duration="35000" />
-      <workItem from="1580328331446" duration="4286000" />
+      <workItem from="1580328331446" duration="4631000" />
+      <workItem from="1580407238069" duration="2556000" />
     </task>
     <servers />
   </component>
@@ -182,10 +189,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="281" y="27" width="860" height="741" key="CommitChangelistDialog2/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580328385867" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580245130777">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580407275535">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580245130777" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580407275535" />
     <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1580244943914">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -206,14 +213,14 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="483" y="210" width="457" height="373" key="NewPhpClassDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580332925631" />
-    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1580332399213">
+    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1580407991332">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580332399213" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1580245103234">
+    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580407991332" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1580407240642">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580245103234" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1680.1050@67.27.1299.741" timestamp="1580407240642" />
     <state x="484" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580328392188">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

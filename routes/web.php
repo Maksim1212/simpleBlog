@@ -23,6 +23,10 @@ Route::get('/posts/{post}','PostsController@show');
 Route::post('posts/{post}/edit', 'PostsController@edit')->middleware('auth');
 Route::post('posts/{post}/update', 'PostsController@update');
 
+Route::get('search','PostsController@search');
+
+Route::post('/posts/{post}/comments', 'CommentsController@store')->middleware('auth');
+
 Auth::routes();
 
 Route::get('pages/sign', 'HomeController@index')->name('home');
